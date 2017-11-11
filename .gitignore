@@ -1,0 +1,17 @@
+/dist/bundle.js
+/dist/bundle.js.map
+.npm/
+/.config/
+.bash_history
+.cache/
+.config/
+.node-gyp/
+.tmp/
+.v8flags*
+bower_components/
+config/
+node_modules/
+.idea/
+yarn-error.log
+yarn.lock
+src/configs/config.js
