@@ -7,8 +7,10 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 
+
 // import reusavble content
 import PortfolioButton from './components/PortfolioButton'
+import DropDownMenuOpenImmediateExample from './components/PortfolioDropDownMenu'
 
 // inject onTouchTap event
 injectTapEventPlugin()
@@ -18,7 +20,11 @@ class AppComponent extends Component {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
         <PortfolioButton />
+
       </MuiThemeProvider>
+
+
+
     )
   }
 }
