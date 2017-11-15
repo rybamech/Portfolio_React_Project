@@ -14,7 +14,7 @@ export default class DropDownMenuOpenImmediateExample extends React.Component {
 
   render () {
     return (
-      <DropDownMenu value={this.state.value} onChange={this.handleChange} openImmediately={true}>
+      <DropDownMenu value={this.state.value} onChange={this.handleChange}>
         <MenuItem value={1} primaryText='Never' />
         <MenuItem value={2} primaryText='Every Night' />
         <MenuItem value={3} primaryText='Weeknights' />
